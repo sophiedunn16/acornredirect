@@ -1,0 +1,58 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.95);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  z-index: 99999;
+}
+
+h1, p {
+  font-family: 'urw-din', sans-serif;
+  padding-bottom: 1rem;
+  color: #555;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding-bottom: 15px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+a {
+  color: #79ADDC;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.acorn-logo {
+  max-width: 220px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@@media query {
+
+}
