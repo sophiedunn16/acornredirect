@@ -20,20 +20,19 @@ header {
 
 h1, p {
   font-family: 'urw-din', sans-serif;
-  padding-bottom: 1rem;
   color: #555;
 }
 
 h1 {
   font-weight: 500;
-  font-size: 1.8rem;
-  padding-bottom: 15px;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 p {
   font-weight: 300;
-  font-size: 1.4rem;
-  line-height: 1.7;
+  font-size: 1.0rem;
+  line-height: 1.5rem;
 }
 
 a {
@@ -42,8 +41,13 @@ a {
   transition: .5s;
 }
 
+div {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .acorn-logo {
   max-width: 220px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
